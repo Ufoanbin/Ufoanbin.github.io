@@ -1,6 +1,7 @@
 ---
 layout: post
 title: github blog open
+categories : Blogging
 ---
 
 깃허브로 블로그를 열었습니다.
