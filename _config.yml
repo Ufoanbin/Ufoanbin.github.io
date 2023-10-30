@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -21,12 +21,12 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jibin Yoo"
 description              : "My Blog."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://ufoanbin.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+teaser                   : "/assets/images/bio-photo.png"
+logo                     : "/assets/images/logo.png"
+masthead_title           : #"000"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Jibin Yoo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.png"
   bio              : "I am an **Dev**."
   location         : "suwon, s.korea"
   email            : "ufoanbin@gmail.com"
@@ -278,7 +278,7 @@ compress_html:
 
 
 # Defaults
-defaults:
+defaults: # 페이지의 머리말에 선언하지 않아도 아래 내용들은 기본값으로 적용됨.
   # _posts
   - scope:
       path: ""
@@ -286,7 +286,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
+      toc: true         # 현재 페이지의 목차 보기 활성화
+      sidebar:  # (내 커스텀 변수) 블로그 목차 보기
+        nav: main-sidebar
