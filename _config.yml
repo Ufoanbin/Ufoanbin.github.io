@@ -24,7 +24,7 @@ description              : "My Blog."
 url                      : "https://ufoanbin.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/bio-photo.png"
+teaser                   : #"/assets/images/bio-photo.png"
 logo                     : "/assets/images/logo.png"
 masthead_title           : #"000"
 # breadcrumbs            : false # true, false (default)
@@ -107,7 +107,7 @@ author:
   name             : "Jibin Yoo"
   avatar           : "/assets/images/bio-photo.png"
   bio              : "I am an **Dev**."
-  location         : "suwon, s.korea"
+  location         : "Suwon, S.Korea"
   email            : "ufoanbin@gmail.com"
   links:
     - label: "Email"
