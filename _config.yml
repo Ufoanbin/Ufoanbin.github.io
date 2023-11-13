@@ -292,4 +292,4 @@ defaults: # 페이지의 머리말에 선언하지 않아도 아래 내용들은
       related: true
       toc: true         # 현재 페이지의 목차 보기 활성화
       sidebar:  # (내 커스텀 변수) 블로그 목차 보기
-        nav: main-sidebar
+        nav: 'sidebar-category'

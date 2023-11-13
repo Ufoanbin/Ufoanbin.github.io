@@ -6,6 +6,8 @@ last_modified_at: "2023-9-1 00:00:00 +0900"
 author_profile: true
 sidebar:
   nav: "main"
+categories:
+  - blogging
 ---
 
 깃허브와 연동해 처음으로 블로그를 개설했다.

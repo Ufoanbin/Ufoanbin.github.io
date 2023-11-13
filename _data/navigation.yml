@@ -90,3 +90,20 @@ main-sidebar:
     children:
     - title: "Poem"
       url: "/writing/poem/"
+
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "블로그"
+        url: "/blogging"
+        category: "blogging"
+      - title: "코딩"
+        url:  "/coding"
+        category: "coding"
+        children:
+          -title: "HTML"
+          -title: "JavaScript"
+          -title: "Python"
+      - title: "데이터"
+        url:  "/Data"
+        category: "Data"
