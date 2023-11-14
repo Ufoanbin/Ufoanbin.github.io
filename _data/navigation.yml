@@ -101,9 +101,17 @@ sidebar-category:
         url:  "/coding"
         category: "coding"
         children:
-          -title: "HTML"
-          -title: "JavaScript"
-          -title: "Python"
+            -title: "HTML"
+            url: "/Html&Css&Js"
+            category: "HTML"
+            -title: "JavaScript"
+            url: "/Html&Css&Js"
+            category: "JavaScript"
+ 
+ 
+            
+            
+
       - title: "데이터"
         url:  "/Data"
         category: "Data"
