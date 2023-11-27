@@ -97,16 +97,20 @@ sidebar-category:
       - title: "블로그"
         url: "/blogging"
         category: "blogging"
-      - title: "코딩"
-        url:  "/coding"
-        category: "coding"
+      - title: "Html & Css & Js"
+        url:  "/Html&Css&Js"
+        category: "Html & Css & Js"
         children:
             -title: "HTML"
-            url: "/Html&Css&Js"
+            url: "/Html&Css&Js/html"
             category: "HTML"
             -title: "JavaScript"
-            url: "/Html&Css&Js"
+            url: "/Html&Css&Js/js"
             category: "JavaScript"
+
+      - title: "Python"
+        url: "/Python"
+        category: "Python"
  
  
             
@@ -115,3 +119,22 @@ sidebar-category:
       - title: "데이터"
         url:  "/Data"
         category: "Data"
+
+      - title: "Computing"
+        url: "/computing/"
+        children:
+        - title: "Computer"
+          url: "/computing/computer/"
+          children:
+          - title: "CPU"
+            url: "/computing/computer/cpu/"
+          - title: "Linux"
+            url: "/computing/linux/"
+          children:
+          - title: "Command"
+            url: "/computing/linux/commands/"
+          - title: "Programming"
+            url: "/computing/programming/"
+          children:
+          - title: "Python"
+            url: "/computing/programming/python/"
